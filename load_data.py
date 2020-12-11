@@ -14,10 +14,6 @@ from sklearn.model_selection import train_test_split
 import os
 os.system("sudo pip install scikit-image")
 
-
-
-
-
 from skimage.transform import rotate, AffineTransform, warp
 import skimage
 
