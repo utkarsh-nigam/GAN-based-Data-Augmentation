@@ -16,8 +16,6 @@ os.system("sudo pip install scikit-image")
 
 
 
-
-
 from skimage.transform import rotate, AffineTransform, warp
 import skimage
 
