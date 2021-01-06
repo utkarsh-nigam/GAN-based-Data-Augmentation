@@ -21,7 +21,7 @@ This dataset had images of variable size and aspect ratio. Therefore, we decided
 
 
 ## Architectures
-To evaluate the performance of GAN's, we decided to choose four of the top pre-trained models for our study:
+To evaluate the performance of GAN's, we decided to choose four of the top pre-trained models for our study:  
 •	AlexNet  
 •	DenseNet  
 •	VGG19  
