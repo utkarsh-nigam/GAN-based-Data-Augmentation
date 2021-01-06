@@ -22,10 +22,10 @@ This dataset had images of variable size and aspect ratio. Therefore, we decided
 
 ## Architectures
 To evaluate the performance of GAN's, we decided to choose four of the top pre-trained models for our study:
-•	AlexNet 
-•	DenseNet
-•	VGG19 
-•	ResNext
+•	AlexNet  
+•	DenseNet  
+•	VGG19  
+•	ResNext  
 
 Since our objective is to focus on improving the performance by increasing the sample of minority class, hence we decided to keep the models to their base configuration (meaning no hyper tuning was done).
 
