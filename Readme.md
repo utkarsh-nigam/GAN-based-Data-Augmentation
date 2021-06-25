@@ -5,7 +5,7 @@ Dataset imbalance is one of the major problems that we face while training any m
 use GAN's to improve the performance of CNN models for classification of highly imbalanced image dataset.
 
 ## Dataset
-Dataset being used for this project is based on Cat's Breed dataset which is sourced from Kaggle https://www.kaggle.com/ma7555/cat-breeds-dataset. It consists of 67 different breeds of cats. However, due to computational limitations, we choose 2 breeds (American Shorthair and Himalayan) that when combined together give us a highly imbalanced dataset.
+Dataset being used for this project is based on Cat's Breed dataset which is sourced from Kaggle https://www.kaggle.com/ma7555/cat-breeds-dataset. It consists of 67 different breeds of cats. However, due to computational limitations, we chose 2 breeds (American Shorthair and Himalayan) that when combined give us a highly imbalanced dataset.
 
 ![Alt text](/assets/img/img1.png?raw=true "")
 
@@ -16,7 +16,7 @@ Dataset being used for this project is based on Cat's Breed dataset which is sou
 This dataset had images of variable size and aspect ratio. Therefore, we decided to go with the image of size 400 X 300 (height X width). Reason for this choice, was to provide the model with images that capture the maximum features of the cats. And with this particular image size, we observed maximum images to have cats standing, thus giving maximum visibility in terms of features. Following are the steps of pre processing:
 
 ![Alt text](/assets/img/img2.png?raw=true "")
-(a) Original 400 X 300-pixels image, (b) Adding padding of 50 pixels on both horizontal sides, thereby making image 400 X 400- pixel,
+(a) Original 400 X 300-pixels image, (b) Adding padding of 50 pixels on both left and right sides, thereby making image 400 X 400- pixels,
 (c) Further, rezsized to 64 X 64-pixels
 
 
